@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1 id="valueDisplay">Count is</h1>
+  <div id="changeCount">0</div>
+  <button id="btn" onclick="increment()">Increment</button>
+  <button id="btn1" onclick=decrement()>Decrement</button>
+  <div>
+    <h2 id="valueDisplay2">Choose a first value to multiply or divide</h2>
+    <input type="number" id="inputNumber1" placeholder="enter 1st no">
+    <h2 id="valueDisplay2">Choose a second value to multiply or divide </h2>
+    <input type="number" id="inputNumber2" placeholder="enter 2nd no">
+  </div>
+  <button id="multi" onclick="multiplication()">Multiply</button>
+  <button id="divide" onclick="divide()">Divide</button>
+  <!-- <button id="divide">Divide</button> -->
+  <!--  <input type="submit" value="mutliply" onclick="return multiplication()">-->
+  <h2>Result is</h2>
+  <div id="displayResult"></div>
+
+  <script src="Counter.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
